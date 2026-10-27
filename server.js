@@ -2,6 +2,7 @@ import http from 'node:http';
 import crypto from 'node:crypto';
 const port=Number(process.env.PORT3000);
 const user=process.env.APP_USER'owner';
+const user=process.env.APP_USER'owner';
 const passHash=process.env.APP_PASSWORD_SHA256'';
 const sessions=new Map();
 const data={messages:[],memories:[]};
